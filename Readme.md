@@ -1,6 +1,9 @@
 Example webpack config using Preact and HMR
 ---
 
+##DO NOT USE. Doesn't work for now. 
+Research ongoing .. stay tunded. 
+
 This is an example repo for Preact + Webpack using Hot-Module-Reloading. 
 
 Forked from the [Using Webpack's Hot Module Replacement with
