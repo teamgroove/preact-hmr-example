@@ -5,7 +5,13 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "/static/"
   },
-
+  resolve: {
+    extensions: ['', '.jsx', '.js', '.json'],
+    alias: {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  },
   module: {
     loaders: [{
       test: /\.js$/,

@@ -1,7 +1,7 @@
 {
-  "name": "react-hmr-example",
+  "name": "preact-hmr-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic example using Preact with Webpack using HMR",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --inline --hot"
@@ -19,7 +19,8 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "preact": "^4.8.0",
+    "preact-compat": "^1.7.1",
+    "proptypes": "^0.14.3"
   }
 }
